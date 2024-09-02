@@ -1,0 +1,1 @@
+import{_ as e}from"./Cfe7a7_l.js";import{O as t,H as c}from"./DFNxNRTA.js";const o={},r={class:"relative z-10"};function s(n,a){return c(),t("div",r,"123 resume")}const i=e(o,[["render",s]]);export{i as default};

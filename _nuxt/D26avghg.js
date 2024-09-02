@@ -1,0 +1,1 @@
+import{_ as r}from"./Cfe7a7_l.js";import{H as o,O as t,_ as s}from"./DFNxNRTA.js";const a={};function n(e,c){return o(),t("table",null,[s(e.$slots,"default")])}const f=r(a,[["render",n]]);export{f as default};

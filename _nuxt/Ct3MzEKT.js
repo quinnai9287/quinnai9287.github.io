@@ -1,0 +1,1 @@
+import{_ as o}from"./Cfe7a7_l.js";import{H as r,O as t,_ as s}from"./DFNxNRTA.js";const n={};function c(e,a){return r(),t("tbody",null,[s(e.$slots,"default")])}const f=o(n,[["render",c]]);export{f as default};
