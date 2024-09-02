@@ -45,7 +45,7 @@ const middleRowItemInner = middleRowItems[middleRowItemIndex].querySelector('.ro
 // And the inner image
 const middleRowItemInnerImage = middleRowItemInner.querySelector('.row__item-img');
 // Setting the final size of the middle image for the reveal effect
-middleRowItemInnerImage.classList.add('row__item-img--large');
+// middleRowItemInnerImage.classList.add('row__item-img--large');
 
 // amt represents the interpolation amount for each row's movement.
 // A higher amt value means faster interpolation and less lag behind the mouse movement.
@@ -128,6 +128,7 @@ const calculateMappedBrightness = () => {
 
 // Function to get the value of a CSS variable
 const getCSSVariableValue = (element, variableName) => {
+  console.log('element', element);
   return getComputedStyle(element).getPropertyValue(variableName).trim();
 };
 
@@ -186,10 +187,12 @@ const stopRendering = () => {
 
 const enterFullview = () => {
   // Logic to animate the middle image to full view using gsap Flip
+  middleRowItemInnerImage.style.backgroundImage = `url(/img/planet.jpg)`;
   const flipstate = Flip.getState(middleRowItemInner);
   fullview.appendChild(middleRowItemInner);
   
   // Get the CSS variable value for the translation
+  console.log('content', content);
   const transContent = getCSSVariableValue(content, '--trans-content');
 
   // Create a GSAP timeline for the Flip animation
@@ -242,10 +245,11 @@ const enterFullview = () => {
 const init = () => {
   startRendering();
 
-  // // Initialize click event for the "Explore" button
-  // enterButton.addEventListener('click', enterFullview);
-  // // Add touchstart event for mobile devices
-  // enterButton.addEventListener('touchstart', enterFullview);
+  body.classList.add('noscroll', 'loading');
+  // Initialize click event for the "Explore" button
+  enterButton.addEventListener('click', enterFullview);
+  // Add touchstart event for mobile devices
+  enterButton.addEventListener('touchstart', enterFullview);
 };
 
 // Preloading images and initializing setup when complete
