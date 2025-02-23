@@ -9,11 +9,9 @@ import { DATA } from "@/data/resume";
 import Markdown from "react-markdown";
 import Image from "next/image";
 
-
 const BLUR_FADE_DELAY = 0.04;
 
 export default function Page() {
-
   return (
     <main className="flex flex-col min-h-[100dvh] space-y-10 pb-20">
       <section id="hero">
@@ -89,11 +87,11 @@ export default function Page() {
           </BlurFade>
           {DATA.work.map((work, id) => (
             <BlurFade
-              key={work.company+id}
+              key={work.company + id}
               delay={BLUR_FADE_DELAY * 6 + id * 0.05}
             >
               <ResumeCard
-                key={work.company+id}
+                key={work.company + id}
                 logoUrl={work.logoUrl}
                 altText={work.company}
                 title={work.company}
@@ -103,7 +101,7 @@ export default function Page() {
                 period={`${work.start} - ${work.end ?? "Present"}`}
                 description={work.description}
                 // @ts-ignore
-                projects={work.projects} 
+                projects={work.projects}
               />
             </BlurFade>
           ))}
@@ -160,7 +158,11 @@ export default function Page() {
                   Projects I participated in
                 </h2>
                 <p className="text-muted-foreground md:text-base/relaxed">
-                  During my time as a front-end developer, I was responsible for and participated in the creation of over {DATA.hackathons.length}+ projects. These projects spanned various fields, including corporate websites, e-commerce sites, and applications.
+                  During my time as a front-end developer, I was responsible for
+                  and participated in the creation of over{" "}
+                  {DATA.hackathons.length}+ projects. These projects spanned
+                  various fields, including corporate websites, e-commerce
+                  sites, and applications.
                 </p>
               </div>
             </div>
@@ -186,7 +188,7 @@ export default function Page() {
           </BlurFade>
         </div>
       </section>
-      <section id="side-projects">
+      {/* <section id="side-projects">
         <div className="space-y-12 w-full py-12">
           <BlurFade delay={BLUR_FADE_DELAY * 11}>
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
@@ -198,7 +200,10 @@ export default function Page() {
                   This is where my passion lies
                 </h2>
                 <p className="text-muted-foreground md:text-base/relaxed">
-                  Drawing inspiration from everyday experiences to come up with problem-solving methods, using my professional skills to turn these ideas into reality, is something I&#39;ve always wanted to do.
+                  Drawing inspiration from everyday experiences to come up with
+                  problem-solving methods, using my professional skills to turn
+                  these ideas into reality, is something I&#39;ve always wanted
+                  to do.
                 </p>
               </div>
             </div>
@@ -224,7 +229,7 @@ export default function Page() {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
       {/* <section id="contact">
         <div className="grid items-center justify-center gap-4 px-4 text-center md:px-6 w-full py-12">
           <BlurFade delay={BLUR_FADE_DELAY * 16}>

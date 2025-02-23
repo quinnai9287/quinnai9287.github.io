@@ -9,11 +9,9 @@ import { DATA } from "@/data/resume-zhtw";
 import Link from "next/link";
 import Markdown from "react-markdown";
 
-
 const BLUR_FADE_DELAY = 0.04;
 
 export default function Page() {
-
   return (
     <main className="flex flex-col min-h-[100dvh] space-y-10 pb-20">
       <section id="hero">
@@ -58,11 +56,11 @@ export default function Page() {
           </BlurFade>
           {DATA.work.map((work, id) => (
             <BlurFade
-              key={work.company+id}
+              key={work.company + id}
               delay={BLUR_FADE_DELAY * 6 + id * 0.05}
             >
               <ResumeCard
-                key={work.company+id}
+                key={work.company + id}
                 logoUrl={work.logoUrl}
                 altText={work.company}
                 title={work.company}
@@ -129,7 +127,9 @@ export default function Page() {
                   Projects I participated in
                 </h2>
                 <p className="text-muted-foreground md:text-base/relaxed">
-                  作為前端開發者的時期當中，我負責與參與製作 {DATA.hackathons.length}+ 個專案。這些專案涵蓋了各種不同的領域，從形象網站、電子商務網站到應用程式，都有涉及。
+                  作為前端開發者的時期當中，我負責與參與製作{" "}
+                  {DATA.hackathons.length}+
+                  個專案。這些專案涵蓋了各種不同的領域，從形象網站、電子商務網站到應用程式，都有涉及。
                 </p>
               </div>
             </div>
@@ -156,7 +156,7 @@ export default function Page() {
           </BlurFade>
         </div>
       </section>
-      <section id="side-projects">
+      {/* <section id="side-projects">
         <div className="space-y-12 w-full py-12">
           <BlurFade delay={BLUR_FADE_DELAY * 11}>
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
@@ -195,7 +195,7 @@ export default function Page() {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
       {/* <section id="contact">
         <div className="grid items-center justify-center gap-4 px-4 text-center md:px-6 w-full py-12">
           <BlurFade delay={BLUR_FADE_DELAY * 16}>
