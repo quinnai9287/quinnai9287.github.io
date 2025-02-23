@@ -88,7 +88,7 @@ export const DATA = {
       ],
       location: "Taipei, Taiwan",
       title: "前端工程師",
-      logoUrl: "/tg3d.png",
+      logoUrl: "/dmktz.png",
       start: "May 2022",
       end: "Sep 2023",
       description: [
