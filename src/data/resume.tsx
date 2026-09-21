@@ -6,12 +6,11 @@ export const DATA = {
   url: "https://quinnai9287.github.io/resume",
   location: "Taipei, Taiwan",
   locationLink: "https://www.google.com/maps/place/taipei",
-  description: `4y+ Front-end developer. 1y+ Formerly a visual/UI designer.   
-    \nPassionate about creative web visuals and developing impressive functionalities, with a balance of aesthetic and logical skills.`,
-  summary: `I have approximately 3-4 years of experience as a front-end engineer. During this time, I have worked on various web development projects, including corporate websites, e-commerce platforms, and SaaS applications.  
-     \nMy primary expertise lies in __Vue 3__, __Nuxt.js__, __React__, __Next.js__, __TypeScript__, and __TailwindCSS__. Additionally, I have a personal interest in __Three.js__ and __WebGL__.  
-     \nIn addition to developing front-end application functionality, I have a keen eye for visual details in front-end web development and place a high emphasis on the visual presentation of web pages.  
-     \nI am currently seeking a position as a Front-end Developer, where I can continue to grow my skills and contribute to a team that values creativity and innovation.`,
+  description: `5+ years as a Frontend Engineer, with 1+ year of experience in Visual/UI Design. I enjoy creative web visuals as much as I enjoy building fun, interactive features — balancing aesthetics with logic.`,
+  summary: `I'm a Frontend Engineer with 4+ years of experience in web development and a background in Visual/UI Design. I primarily work with Vue, Nuxt, and TypeScript, with experience building SaaS applications, e-commerce websites, and interactive web experiences.
+    \nBeyond frontend development, I have experience with API integration, data flow, authentication, and third-party service integration as part of building web applications.
+    \nWith a design background, I pay close attention to visual details and interactions. I like thinking about both functionality and user experience, aiming to build products that are not only functional, but also intuitive and visually refined.
+    \nBuilding experiences, not just websites.`,
   avatarUrl: "/me2.jpg",
   skills: ["Front-end Development", "UI/UX Design"],
   contact: {
@@ -33,15 +32,27 @@ export const DATA = {
     {
       company: "LYNUXTEK",
       href: "https://www.lynuxtek.com",
-      badges: ["Vue3/Nuxt", "GraphQL", "TypeScript", "Firebase", "ci/cd"],
+      badges: [
+        "Vue 3 / Nuxt 4",
+        "TypeScript",
+        "GraphQL / Apollo",
+        "TailwindCSS / Nuxt UI",
+        "Mapbox",
+      ],
       logoUrl: "/lynuxTek.jpg",
       location: "Taoyuang, Taiwan",
       title: "Front End Engineer",
       start: "Sep 2024",
-      end: "Present",
+      end: "July 2026",
       description: [
-        `Developed front-end solutions for multiple official websites of the company’s clients.`,
-        `Contributed to the front-end development of various SaaS platforms.`,
+        `Contributed to the frontend development of a SaaS Web Application, implementing core features and UI and helping bring the product to the MVP stage.`,
+        `Built web application features using Vue 3, Nuxt 4, and TypeScript, including complex data flows and interactive functionality.`,
+        `Developed responsive interfaces and reusable UI with Tailwind CSS / Nuxt UI, with a focus on interaction and visual details.`,
+        `Integrated GraphQL / Apollo APIs and handled frontend data flow and application state.`,
+        `Integrated product features including authentication, mapping, file uploads, and cloud storage, working with relevant third-party services.`,
+        `Developed map-based features using Mapbox / Leaflet, including map interactions and data visualization.`,
+        `Implemented file upload workflows using Uppy / S3.`,
+        `Applied my Visual/UI Design background to frontend implementation, balancing product requirements, usability, and visual quality.`,
       ],
     },
     {
@@ -54,9 +65,8 @@ export const DATA = {
         "React/Next",
         "React-Native",
         "TypeScript",
-        "Swagger/OpenAPI",
-        "ci/cd",
         "Firebase",
+        "Markdown",
       ],
       logoUrl: "",
       location: "Remote",

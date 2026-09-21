@@ -4,12 +4,13 @@ import { TooltipProvider } from "@/components/ui/tooltip";
 import { DATA } from "@/data/resume";
 import { cn } from "@/lib/utils";
 import type { Metadata } from "next";
-import { Inter as FontSans } from "next/font/google";
+import { Noto_Sans_TC } from "next/font/google";
 import "./globals.css";
 
-const fontSans = FontSans({
-  subsets: ["latin"],
+const fontSans = Noto_Sans_TC({
+  subsets: ["latin", "latin-ext"],
   variable: "--font-sans",
+  weight: ["400", "500", "700"],
 });
 
 export const metadata: Metadata = {

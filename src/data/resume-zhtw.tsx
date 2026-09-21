@@ -6,10 +6,11 @@ export const DATA = {
   url: "https://quinnai9287.github.io/resume",
   location: "台北, 台灣",
   locationLink: "https://www.google.com/maps/place/taipei",
-  description: `4y+ 前端工程師，1y+ 前平面/UI設計師。喜歡富有創意的網頁視覺，也喜歡做酷炫的功能，美感邏輯雙修。也擁有相當豐富的 Sass 應用前端開發經驗。`,
-  summary: `任職前端工程師約 3-4 年經驗。任職前端工程師期間經手數種網頁開發，從形象網站、電商網站至 SaaS 應用程式皆有涉獵。    
-    \n擅長開發工具包含 __Vue 3__、__Nuxt.js__、__React__、__Next.js__、__TypeScript__ 和 __TailwindCSS__。此外，我對 __Three.js__ 和 __WebGL__ 有個人興趣。  
-    \n除了開發前端應用功能外，我對前端網頁開發中的視覺細節也非常注重，並強調網頁的視覺呈現。目前正在尋找前端開發人員的職位，希望在創意和創新的團隊中繼續成長並貢獻我的技能。`,
+  description: `5y+ 前端工程師，1y+ 前視覺/UI設計師。喜歡富有創意的網頁視覺，也喜歡打造有趣的互動與功能，美感邏輯雙修。`,
+  summary: `主要使用 Vue、Nuxt、TypeScript 開發網頁應用，也具備 React / Next.js 開發經驗，參與過 SaaS、電商與各類互動式網站。
+    \n除了前端開發，也有 API 整合、資料流、身分驗證與第三方服務串接等產品開發經驗。
+    \n設計背景讓我特別在意介面的視覺與互動細節，習慣從功能與使用體驗一起思考，希望在工程能力之外，也能讓產品本身好用、好看。
+    \nBuilding experiences, not just websites.`,
   avatarUrl: "/me2.jpg",
   skills: ["網頁前端開發", "UI/UX 設計"],
   contact: {
@@ -31,16 +32,28 @@ export const DATA = {
     {
       company: "LYNUXTEK 令客思科技",
       href: "https://www.lynuxtek.com",
-      badges: ["Vue3/Nuxt", "GraphQL", "TypeScript", "Firebase", "ci/cd"],
+      badges: [
+        "Vue 3 / Nuxt 4",
+        "TypeScript",
+        "GraphQL / Apollo",
+        "TailwindCSS / Nuxt UI",
+        "Mapbox",
+      ],
       logoUrl: "/lynuxTek.jpg",
       location: "桃園, 台灣",
       title: "前端工程師",
       start: "Sep 2024",
-      end: "Present",
+      end: "July 2026",
       description: [
-        `負責各種不同客戶的官方網站前端開發。`,
-        `參與數個不同 SaaS 應用的前端開發。`,
-        `參與公司內部專案，如公司官網、內部管理系統等。`,
+        `參與 SaaS Web Application 從 0 到 1 的前端開發，負責產品功能與介面實作，推進產品至 MVP 階段。`,
+        `以 Vue 3、Nuxt、TypeScript 為主要技術，開發具複雜資料流程與互動功能的 Web Application。`,
+        `使用 Tailwind CSS / Nuxt UI 建構可重用的 UI 與頁面，負責 RWD、互動效果及視覺細節實作。`,
+        `使用 GraphQL / Apollo 串接後端 API，處理資料取得、狀態管理及前端資料流。`,
+        `整合產品所需的 身分驗證、地圖、檔案上傳與雲端儲存 等功能，串接相關第三方服務。`,
+        `使用 Mapbox / Leaflet 開發地圖與位置相關功能，並處理地圖互動與資料呈現。`,
+        `使用 Uppy / S3 建立檔案上傳與儲存流程。`,
+        `參與產品 UI 與使用體驗的設計與實作，運用既有的視覺／UI 設計背景，在功能需求與介面品質之間取得平衡。`,
+        `持續維護與迭代前端功能，處理產品開發過程中的技術與 UI 細節問題。`,
       ],
     },
     {
@@ -53,8 +66,6 @@ export const DATA = {
         "React/Next",
         "React-Native",
         "TypeScript",
-        "Swagger/OpenAPI",
-        "ci/cd",
         "Firebase",
         "Markdown",
       ],
@@ -62,7 +73,7 @@ export const DATA = {
       logoUrl: "",
       title: "前端工程師",
       start: "Sep 2023",
-      end: "Present",
+      end: "Sep 2024",
       description: [
         `▦ 2024 六月 ~ 八月 ▦  
           [專案] 漸強實驗室 x SHOPLINE LINE 會員卡功能平台 & Shopline 商家擴充插件。  
