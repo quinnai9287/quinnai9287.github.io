@@ -27,6 +27,7 @@ interface Props {
     href: string;
   }[];
   className?: string;
+  assetClassName?: string;
 }
 
 export function ProjectCard({
@@ -41,6 +42,7 @@ export function ProjectCard({
   roles,
   links,
   className,
+  assetClassName,
 }: Props) {
   return (
     <Card
@@ -50,7 +52,11 @@ export function ProjectCard({
     >
       <Link
         href={href || "javsacript:void(0)"}
-        className={cn("block cursor-pointer", className, !href && "pointer-events-none cursor-auto")}
+        className={cn(
+          "block cursor-pointer",
+          className,
+          !href && "pointer-events-none cursor-auto",
+        )}
       >
         {video && (
           <video
@@ -59,14 +65,20 @@ export function ProjectCard({
             loop
             muted
             playsInline
-            className="pointer-events-none mx-auto h-44 w-full object-cover object-top" // needed because random black line at bottom of video
+            className={cn(
+              "pointer-events-none mx-auto h-44 w-full object-cover object-top",
+              assetClassName,
+            )} // needed because random black line at bottom of video
           />
         )}
         {image && (
           <Image
             src={image}
             alt={title}
-            className="h-44 w-full overflow-hidden object-cover object-top"
+            className={cn(
+              "h-44 w-full overflow-hidden object-cover object-top",
+              assetClassName,
+            )}
             width={500}
             height={400}
           />
