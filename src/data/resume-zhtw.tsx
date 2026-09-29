@@ -6,7 +6,7 @@ export const DATA = {
   url: "https://quinnai9287.github.io/resume",
   location: "台北, 台灣",
   locationLink: "https://www.google.com/maps/place/taipei",
-  description: `5y+ 前端工程師，1y+ 前視覺/UI設計師。喜歡富有創意的網頁視覺，也喜歡打造有趣的互動與功能，美感邏輯雙修。`,
+  description: `5+ 年前端開發經驗，具備視覺與 UI 設計背景，專注於打造兼具功能性、互動性與視覺品質的 Web Experience。`,
   summary: `主要使用 Vue、Nuxt、TypeScript 開發網頁應用，也具備 React / Next.js 開發經驗，參與過 SaaS、電商與各類互動式網站。
     \n除了前端開發，也有 API 整合、資料流、身分驗證與第三方服務串接等產品開發經驗。
     \n設計背景讓我特別在意介面的視覺與互動細節，習慣從功能與使用體驗一起思考，希望在工程能力之外，也能讓產品本身好用、好看。
@@ -33,11 +33,13 @@ export const DATA = {
       company: "LYNUXTEK 令客思科技",
       href: "https://www.lynuxtek.com",
       badges: [
-        "Vue 3 / Nuxt 4",
-        "TypeScript",
-        "GraphQL / Apollo",
-        "TailwindCSS / Nuxt UI",
-        "Mapbox",
+        "React Native",
+        "Vue 2 / Nuxt.js",
+        "Three.js",
+        "Web3",
+        "MetaMask",
+        "NFT",
+        "Smart Contract",
       ],
       logoUrl: "/lynuxTek.jpg",
       location: "桃園, 台灣",
@@ -45,29 +47,24 @@ export const DATA = {
       start: "Sep 2024",
       end: "July 2026",
       description: [
-        `參與 SaaS Web Application 從 0 到 1 的前端開發，負責產品功能與介面實作，推進產品至 MVP 階段。`,
-        `以 Vue 3、Nuxt、TypeScript 為主要技術，開發具複雜資料流程與互動功能的 Web Application。`,
-        `使用 Tailwind CSS / Nuxt UI 建構可重用的 UI 與頁面，負責 RWD、互動效果及視覺細節實作。`,
+        `參與 SaaS Web Application 0 到 1 開發，負責前端架構、核心功能與 UI/UX 實作，推進產品至 MVP 階段。`,
+        `使用 Vue 3、Nuxt 4、TypeScript 建構 Web Application，負責頁面架構、Reusable Components、互動邏輯與資料流。`,
+        `與後端協作整合 GraphQL / Apollo，串接產品核心 API 與資料流程。`,
         `使用 GraphQL / Apollo 串接後端 API，處理資料取得、狀態管理及前端資料流。`,
-        `整合產品所需的 身分驗證、地圖、檔案上傳與雲端儲存 等功能，串接相關第三方服務。`,
-        `使用 Mapbox / Leaflet 開發地圖與位置相關功能，並處理地圖互動與資料呈現。`,
-        `使用 Uppy / S3 建立檔案上傳與儲存流程。`,
-        `參與產品 UI 與使用體驗的設計與實作，運用既有的視覺／UI 設計背景，在功能需求與介面品質之間取得平衡。`,
-        `持續維護與迭代前端功能，處理產品開發過程中的技術與 UI 細節問題。`,
+        `整合 SuperTokens、Mapbox / Leaflet、Uppy / S3，實作身份驗證、地圖與檔案上傳等產品功能。`,
+        `使用 Tailwind CSS、Nuxt UI、Pinia 建立可重用 UI 與狀態管理架構，並參與需求拆解、UI/UX 設計及產品迭代。`,
       ],
     },
     {
       company: "自由接案",
       href: "",
       badges: [
-        "Vue3/Nuxt",
-        "WebSocket",
+        "Vue / Nuxt",
+        "React / Next.js",
         "Svelte",
-        "React/Next",
-        "React-Native",
         "TypeScript",
-        "Firebase",
-        "Markdown",
+        "WebSocket",
+        "LINE LIFF",
       ],
       location: "Remote",
       logoUrl: "",
@@ -75,20 +72,16 @@ export const DATA = {
       start: "Sep 2023",
       end: "Sep 2024",
       description: [
-        `▦ 2024 六月 ~ 八月 ▦  
-          [專案] 漸強實驗室 x SHOPLINE LINE 會員卡功能平台 & Shopline 商家擴充插件。  
-          以外包團隊模式與漸強實驗室簽約專案，參與此產品的前端開發。`,
-        `▦ 2024 三月 ~ 四月 ▦  
-          [專案] TeamSync AI 多人聊天室。
-          以外包團隊模式與數辰藝創公司簽約專案，負責此產品前端開發，當中使用到了 Svelte 框架以及 Socket 技術。`,
-        `▦ 2023 九月 ~ 2024 六月 ▦  
-          [合約]以個人合約方式與 Alion Tech 長期合作。
-          期間參與虛擬辦公空間、ERP 系統、其他 SaaS 應用的前端開發。`,
+        `以個人合約及外包團隊模式參與多項 Web 專案，涵蓋 SaaS、即時通訊與電商應用。`,
+        `參與 TeamSync AI 多人聊天室開發，使用 Svelte / WebSocket 實作即時互動功能。`,
+        `與 Alion Tech 長期合作，參與虛擬辦公空間、ERP 及其他 SaaS 應用的前端開發。`,
+        `參與 SHOPLINE × LINE 會員卡平台與商家擴充插件，串接 LINE LIFF 並與後端協作完成前端功能。`,
+        `使用 Vue / Nuxt、React / Next、Svelte、TypeScript 等技術，依不同產品需求進行前端開發。`,
       ],
     },
     {
       company: "適著三圍 TG3D Studio",
-      href: "https://dmktz.io",
+      href: "https://tg3ds.com/",
       badges: [
         "Vue3/Nuxt",
         "Three.js",
@@ -103,11 +96,11 @@ export const DATA = {
       start: "May 2022",
       end: "Sep 2023",
       description: [
-        "使用 Three.js 與 Vue.js 開發數位服裝設計平台當中的，某幾項所見及所得編輯功能(e.g.身體量測數據與3D模型同步、3D模型的編輯、繪製、材質設定等)。",
-        "負責 Game-Fi App [FITzOn 官方網站](https://fitzon.io) 的前端開發。著重於創建動態內容，實現複雜的動畫效果。串接智慧合約 (Smart Contract) 加密貨幣錢包 (MetaMask)，令使用者可以在官網上做 NFT 的相關操作。",
-        "負責 FITzOn 官方網站 NFT Global Minting 流程的前端開發。",
-        "串接 [RPM  Avatar](https://readyplayer.me/) 開發 Metaverse 3D Avatar x DMKTZ 虛擬服裝試穿功能。",
-        "參與醫美診所美胸手術人體樣態模擬系統專案。",
+        "參與 Web3 / Fashion Tech 產品開發，負責前端功能與互動體驗實作。",
+        "使用 React、Three.js 開發 3D Web Experience，實作 3D 服裝展示、虛擬試穿與模型互動等功能。",
+        "整合 MetaMask、Smart Contract、NFT 等 Web3 技術，串接錢包與鏈上功能。",
+        "與設計及產品團隊協作，將視覺設計轉化為具互動性的 Web UI，兼顧視覺表現與使用體驗。",
+        "參與從功能規劃、開發到上線的完整流程，處理跨技術領域的整合與前端問題。",
       ],
       projects: [
         {
@@ -170,28 +163,24 @@ export const DATA = {
     {
       company: "自由接案",
       href: "https://quinnai9287.github.io",
-      badges: ["Vue 2", "Nuxt.js", "Shopify(liquid)", "Bootsrap 5", "GraphQL"],
+      badges: [
+        "Vue 2 / Nuxt 2",
+        "GraphQL",
+        "Shopify Liquid",
+        "JavaScript",
+        "CSS Animation",
+      ],
       logoUrl: "",
       location: "Remote",
       title: "前端工程師",
       start: "January 2020",
       end: "May 2022",
       description: [
-        `▦ 2021 五月 ~ 2021 十二月 ▦  
-        [專案] 草東沒有派對 [官方網站](https://www.nopartyforcaodong.com/zh-hant) / Shopify 商店  
-        與 Blockcode Studio, Whatever Co.合作專案，負責前端開發。`,
-        `▦ 2021 五月 ~ 2022 六月 ▦  
-        [合約] Alion Tech   
-        參與 [JaFun 日本伴手禮代購平台](https://www.jafun.com.tw/) 的前端開發。`,
-        `▦ 2020 十月 ~ 十一月 ▦  
-        [專案] 安寧基金會 [Instawish 限實許願牆](https://www.youtube.com/watch?v=DZ3EqGJHCCI)  
-        與 Blockcode Studio, 米蘭數位設計合作專案，負責前端開發。`,
-        `▦ 2020 六月 ~ 2022 七月 ▦  
-        [合約] 李長榮化工集團官方網站前端維護與開發  
-        與 Kanekt Creative Studio 合作。`,
-        `▦ 2020 二月 ~ 2020 四月 ▦  
-        [專案] 緬甸大型購物中心 The Central Boulevard [官方網站](https://www.thecentralboulevard.com/en-us)  
-        與 Blockcode Studio, Kanekt Creative Studio 合作。負責官網前端開發。`,
+        `以自由接案與合約合作模式參與多項 Web 專案，涵蓋品牌網站、電商與互動式 Web Application。`,
+        `參與 草東沒有派對官方網站與 Shopify 商店，使用 Nuxt 2、GraphQL、Shopify Liquid 完成前端開發與客製化。`,
+        `參與 JaFun 日本伴手禮代購平台，開發商品搜尋、商品頁、購物車與訂單等電商功能。`,
+        `參與 Instawish 限時許願牆，使用 Nuxt 2 / SSG、CSS Animation、JavaScript 實作網站互動與視覺效果。`,
+        `長期參與 李長榮化工集團官方網站前端維護與開發，與設計團隊協作完成網站更新與內容維護。`,
       ],
     },
     {
@@ -199,12 +188,11 @@ export const DATA = {
       href: "https://albertlan.com",
       badges: [
         "HTML5",
+        "CSS / SCSS",
+        "JavaScript",
         "jQuery",
-        "Gulp",
-        "Bootstrap",
-        "CSS/SCSS",
         "GSAP",
-        "CSS Animation",
+        "Bootstrap",
       ],
       location: "台灣, 台北",
       title: "前端工程師",
@@ -212,15 +200,10 @@ export const DATA = {
       start: "Aug 2016",
       end: "Nov 2019",
       description: [
-        "以 HTML、CSS 和 JavaScript 將設計師的概念變為現實",
-        "負責網站和網頁應用用戶界面的製作、修改和維護",
-        "使用戶在各瀏覽器中的視覺和互動體驗一致",
-        "實現移動網站的響應式設計",
-        "使用 GitHub 等專案管理工具維護軟體工作流程",
-        "在開發過程中測試網站的可用性並修復任何錯誤",
-        "以 GSAP 等工具實現網頁動畫",
-        "參與多個企業官網前端開發與維護",
-        "使用 GA & GTM SDK，設定頁面元素的 GA EVENT，使客戶可以在 GA 後台追蹤用戶行為",
+        "負責企業官網與 Web Application 的前端開發、維護與 RWD 實作。",
+        "與設計師協作，使用 HTML、CSS/SCSS、JavaScript 將視覺設計轉化為互動式網站。",
+        "使用 GSAP、CSS Animation 實作網頁動畫與互動效果。",
+        "負責跨瀏覽器相容性、網站測試與問題排查，並使用 GA / GTM 建立使用者行為追蹤。",
       ],
       projects: [
         {
@@ -290,56 +273,51 @@ export const DATA = {
       image: "",
       video: "/video/stfnd.mp4",
     },
-    {
-      title: "Pieces 摺摺",
-      href: "",
-      dates: "Nov 2023 - Present",
-      active: false,
-      description:
-        "讓實體服裝製作變得更簡單！Pieces 是個讓服裝設計師打完板後可以方便、快速開始製作自己的服裝的應用。",
-      technologies: ["Nuxt.js", "Typescript", "TailwindCSS", "Canvas"],
-      roles: ["UI/UX Designer", "Front-end Developer"],
-      links: [],
-      image: "/video/pieces.png",
-      video: "",
-    },
-    // {
-    //   title: "Lonely Diver 潛水孤兒",
-    //   href: "https://pieces.io",
-    //   dates: "July 2024 - Present",
-    //   active: false,
-    //   description:
-    //     "最了解潛水人的潛旅規劃平台，潛水旅行吃喝玩樂一把罩！建立潛水社群，讓台灣各地的潛水孤兒們連結在一起！",
-    //   technologies: [
-    //     "Nuxt.js",
-    //     "Typescript",
-    //     "TailwindCSS"
-    //   ],
-    //   roles: ['UI/UX Designer', 'Front-end Developer'],
-    //   links: [],
-    //   image: "",
-    //   video: "https://cdn.magicui.design/bento-grid.mp4",
-    // },
-    // {
-    //   title: "Cybershop",
-    //   href: "",
-    //   dates: "July 2024 - Present",
-    //   active: false,
-    //   description:
-    //     "Cybershop 是一個輕量型的電商架設平台，提供使用者快速建立自己的電商網站。",
-    //   technologies: [
-    //     "Nuxt.js",
-    //     "TypeScript",
-    //     "TailwindCSS",
-    //   ],
-    //   roles: ['UI/UX Designer', 'Front-end Developer'],
-    //   links: [],
-    //   image: "",
-    //   video:
-    //     "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
-    // },
   ],
   hackathons: [
+    {
+      title: "Asterbytes - SaaS Content Management Platform",
+      dates: "Sep 2024 - July 2026",
+      location: "台灣, 台北",
+      credit:
+        "面向內容與技術團隊的內容管理平台，讓非工程人員能自主建立、編輯與管理網站內容，並透過 API 將內容串接至前端網站。平台支援團隊協作、多語系、內容管理與資源管理等功能。 - All Right Reserved by LYNUXTEK 令客思科技",
+      description: [
+        "參與 SaaS Web Application 的前端開發與產品迭代。",
+        "整合 API 與資料流，實作內容管理、團隊協作等核心產品功能。",
+        "參與 UI/UX 設計與 Reusable Components 建置。",
+      ],
+      image: "/asterbytes.png",
+      mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg",
+      links: [
+        {
+          title: "介紹",
+          icon: <Icons.globe className="h-4 w-4" />,
+          href: "https://www.asterbytes.com",
+        },
+      ],
+    },
+    {
+      title: "EaseX - 可視化的地球資訊雲端平台",
+      dates: "Sep 2024 - July 2026",
+      location: "台灣, 台北",
+      credit:
+        "整合地圖、2D/3D 模型與時序資料，提供多人協作、資料儲存與共享等功能。其中 EaseView 支援 GeoJSON、GLB 資料檢視、2D/3D 疊圖，以及結合 Grafana 的即時 IoT 資料視覺化。 - All Right Reserved by LYNUXTEK 令客思科技",
+      description: [
+        "參與地理資訊雲端平台的前端開發與產品迭代。",
+        "實作地圖資料與互動式地理資訊呈現。",
+        "參與 2D/3D 地理資料、檔案與時序資料的視覺化功能開發。",
+        "建立可重用 UI 元件與互動介面，並與後端協作整合 API。",
+      ],
+      image: "/easex.png",
+      mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg",
+      links: [
+        {
+          title: "介紹",
+          icon: <Icons.globe className="h-4 w-4" />,
+          href: "https://www.ease-x.com/",
+        },
+      ],
+    },
     {
       title: "SHOPLINE x LINE 會員卡功能平台 & SHOPLINE 商家擴充插件",
       dates: "June - August 2024",
@@ -360,129 +338,19 @@ export const DATA = {
       ],
     },
     {
-      title: "Swise - 解決遠距工作課題的虛擬辦公空間",
-      credit: "合約合作 w/ Alion Tech 阿利恩科技",
-      dates: "November 2021 - January 2022",
-      location: "遠端",
-      description: ["參與部分前端介面、功能開發，以及維護、修改以及除錯工作。"],
-      icon: "public",
-      image: "/swise.png",
-      links: [
-        {
-          title: "官方入口",
-          icon: <Icons.globe className="h-4 w-4" />,
-          href: "https://swise.jp/",
-        },
-      ],
-    },
-    {
-      title: "Instawish 限時許願牆",
-      dates: "October - December 2020",
+      title: "DMKTZ 3D Virtual Try-on",
+      dates: "Nov 2022 - Aug 2023",
       location: "台北, 台灣",
-      credit: "專案合作 w/ Blockcode Studio 德穎數位, Medialand 米蘭數位設計",
+      credit:
+        "結合 3D Avatar、虛擬服裝與 Web3 技術的互動式 Fashion Tech 體驗，讓使用者透過 3D Avatar 瀏覽、搭配與體驗數位服裝。 - All Right Reserved by 適著三圍 TG3D Studio",
       description: [
-        "與設計師合作，實現網站視覺效果。",
-        "以 CSS3 Animation、Javscript 實現 Lading Page 中雙向輪播圖動畫。",
-        "以 Nuxt 2 框架 (SSG) 建立前端應用，負責大部分前端開發。",
+        "負責 3D Fashion Experience 的前端開發與互動功能實作。",
+        "建構 3D Avatar 與服裝展示，實作模型載入、視角控制與互動體驗。",
+        "整合 Ready Player Me，串接 3D Avatar 與虛擬服裝相關功能。",
+        "整合 MetaMask、NFT 與 Smart Contract，實作 Web3 錢包及鏈上功能。",
+        "與設計及產品團隊協作，將視覺概念轉化為具互動性的 3D Web Experience。",
       ],
-      image: "/instawish.png",
-      links: [
-        {
-          title: "影片",
-          icon: <Icons.youtube className="h-4 w-4" />,
-          href: "https://www.youtube.com/watch?v=DZ3EqGJHCCI",
-        },
-        {
-          title: "介紹",
-          icon: <Icons.globe className="h-4 w-4" />,
-          href: "https://www.hospice.org.tw/content/3025",
-        },
-        {
-          title: "活動花絮",
-          icon: <Icons.globe className="h-4 w-4" />,
-          href: "https://www.hospice.org.tw/content/3157",
-        },
-      ],
-    },
-    {
-      title: "草東沒有派對",
-      dates: "May - December 2021",
-      location: "台北, 台灣",
-      credit: "專案合作 w/ Blockcode Studio 德穎數位, Whatever Co.",
-      description: [
-        "與設計師合作，實現網站視覺效果。",
-        "以 Nuxt 2 框架 (SSR) 建立前端應用，負責前端開發。",
-        "使用 GraphQL 串接 API 並與後端工程師合作，完成網站上線。",
-        "使用 Shopify Liquid 模板語言製作 Shopify 商店客製化佈景主題。",
-      ],
-      image: "/noparty.jpg",
-      mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2017/white.svg",
-      links: [
-        {
-          title: "官方網站",
-          icon: <Icons.globe className="h-4 w-4" />,
-          href: "https://www.nopartyforcaodong.com/zh-hant",
-        },
-        {
-          title: "Shopify 商店",
-          icon: <Icons.globe className="h-4 w-4" />,
-          href: "https://store.nopartyforcaodong.com/",
-        },
-      ],
-    },
-    {
-      title: "李長榮化工集團",
-      dates: "June 2020 - July 2022",
-      credit: "合約合作 w/ Kanekt Creative 意馳創造",
-      location: "台北, 台灣",
-      description: [
-        "與設計師合作，實現網站視覺效果。",
-        "使用 HTML、CSS、JavaScript 開發官方網站前端。",
-        "維護與更新網站內容。",
-      ],
-      image: "/lcy.jpeg",
-      links: [
-        {
-          title: "李長榮化工",
-          icon: <Icons.globe className="h-4 w-4" />,
-          href: "https://www.lcycic.com/zh",
-        },
-      ],
-    },
-    {
-      title: "JaFun - 日本伴手禮代購平台",
-      dates: "May - November 2021",
-      credit: "合約合作 w/ Alion Tech 阿利恩科技",
-      location: "遠端",
-      description: [
-        "參與前端介面切版，以及功能開發。",
-        "實現搜尋商品、商品頁面、購物車、訂單頁面等功能。",
-      ],
-      image: "/jafun.png",
-      mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2017/white.svg",
-      links: [
-        {
-          title: "官方平台",
-          icon: <Icons.globe className="h-4 w-4" />,
-          href: "https://www.jafun.com.tw/",
-        },
-      ],
-    },
-    {
-      title: "The Central Boulevard Official",
-      dates: "Feburary - April 2020",
-      credit: "專案合作 w/ Kanekt Creative 意馳創造, Blockcode Studio 德穎數位",
-      location: "遠端",
-      description: ["負責前端視覺切版。"],
-      image: "/thecentralboulevard1.png",
-      mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2017/white.svg",
-      links: [
-        {
-          title: "官方網站",
-          icon: <Icons.globe className="h-4 w-4" />,
-          href: "https://www.thecentralboulevard.com/en-us",
-        },
-      ],
+      image: "/dmktz.png",
     },
   ],
 } as const;

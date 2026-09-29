@@ -6,10 +6,9 @@ export const DATA = {
   url: "https://quinnai9287.github.io/resume",
   location: "Taipei, Taiwan",
   locationLink: "https://www.google.com/maps/place/taipei",
-  description: `5+ years as a Frontend Engineer, with 1+ year of experience in Visual/UI Design. I enjoy creative web visuals as much as I enjoy building fun, interactive features — balancing aesthetics with logic.`,
-  summary: `I'm a Frontend Engineer with 4+ years of experience in web development and a background in Visual/UI Design. I primarily work with Vue, Nuxt, and TypeScript, with experience building SaaS applications, e-commerce websites, and interactive web experiences.
-    \nBeyond frontend development, I have experience with API integration, data flow, authentication, and third-party service integration as part of building web applications.
-    \nWith a design background, I pay close attention to visual details and interactions. I like thinking about both functionality and user experience, aiming to build products that are not only functional, but also intuitive and visually refined.
+  description: `Frontend Engineer with 5+ years of experience, with a background in visual and UI design.`,
+  summary: `I primarily work with Vue, Nuxt, and TypeScript, with experience building SaaS applications, e-commerce platforms, and interactive web experiences.
+    \nMy design background shapes how I approach frontend development — balancing functionality, usability, and visual quality to create intuitive and refined digital experiences.
     \nBuilding experiences, not just websites.`,
   avatarUrl: "/me2.jpg",
   skills: ["Front-end Development", "UI/UX Design"],
@@ -36,8 +35,9 @@ export const DATA = {
         "Vue 3 / Nuxt 4",
         "TypeScript",
         "GraphQL / Apollo",
-        "TailwindCSS / Nuxt UI",
-        "Mapbox",
+        "SuperTokens",
+        "Tailwind CSS / Nuxt UI",
+        "Mapbox / Leaflet",
       ],
       logoUrl: "/lynuxTek.jpg",
       location: "Taoyuang, Taiwan",
@@ -45,28 +45,23 @@ export const DATA = {
       start: "Sep 2024",
       end: "July 2026",
       description: [
-        `Contributed to the frontend development of a SaaS Web Application, implementing core features and UI and helping bring the product to the MVP stage.`,
-        `Built web application features using Vue 3, Nuxt 4, and TypeScript, including complex data flows and interactive functionality.`,
-        `Developed responsive interfaces and reusable UI with Tailwind CSS / Nuxt UI, with a focus on interaction and visual details.`,
-        `Integrated GraphQL / Apollo APIs and handled frontend data flow and application state.`,
-        `Integrated product features including authentication, mapping, file uploads, and cloud storage, working with relevant third-party services.`,
-        `Developed map-based features using Mapbox / Leaflet, including map interactions and data visualization.`,
-        `Implemented file upload workflows using Uppy / S3.`,
-        `Applied my Visual/UI Design background to frontend implementation, balancing product requirements, usability, and visual quality.`,
+        `Contributed to the 0-to-1 development of a SaaS web application, owning frontend architecture, core features, and UI/UX implementation through MVP.`,
+        `Built web applications with Vue 3, Nuxt 4, and TypeScript, covering page architecture, reusable components, interactions, and data flow.`,
+        `Collaborated with backend engineers on GraphQL / Apollo integration and implemented authentication and session management with SuperTokens.`,
+        `Integrated third-party services including Mapbox / Leaflet and Uppy / S3 to deliver map-based features, location data, and file upload workflows.`,
+        `Built reusable UI and state management solutions with Tailwind CSS, Nuxt UI, and Pinia, while contributing to requirements analysis, UI/UX design, and product iteration.`,
       ],
     },
     {
       company: "Freelancing",
       href: "",
       badges: [
-        "Vue3/Nuxt",
-        "WebSocket",
+        "Vue / Nuxt",
+        "React / Next.js",
         "Svelte",
-        "React/Next",
-        "React-Native",
         "TypeScript",
-        "Firebase",
-        "Markdown",
+        "WebSocket",
+        "LINE LIFF",
       ],
       logoUrl: "",
       location: "Remote",
@@ -74,27 +69,24 @@ export const DATA = {
       start: "Sep 2023",
       end: "Sep 2024",
       description: [
-        `▦ June ~ August 2024 ▦  
-        [Project] SHOPLINE x LINE Membership Card Platform & Shopline Merchant Extension Plugin.  
-        Collaborated as an outsourced team with Crescendo Lab, contributing to the front-end development of this product.`,
-        `▦ March ~ April 2024 ▦  
-        [Project] TeamSync - Multi-user AI Chatroom.  
-        Developed the front-end of this application using the Svelte framework and WebSocket technology.`,
-        `▦ September 2023 ~ June 2024 ▦  
-        [Contract] Long-term collaboration with Alion Tech under a personal contract.  
-        Participated in front-end development for virtual office spaces, ERP systems, and other SaaS applications during this period.`,
+        `Worked across multiple web projects through direct contracts and outsourcing teams, covering SaaS, real-time communication, and e-commerce applications.`,
+        `Collaborated with Alion Tech on the frontend development of virtual workspace, ERP, and other SaaS applications.`,
+        `Contributed to TeamSync AI, a multi-user chat application, using Svelte and WebSocket to implement real-time interactions.`,
+        `Contributed to the SHOPLINE × LINE Membership Platform and merchant extension, integrating LINE LIFF and collaborating with backend engineers on frontend features.`,
+        `Worked with Vue / Nuxt, React / Next, Svelte, and TypeScript across different products and technical requirements.`,
       ],
     },
     {
       company: "TG3D Studio",
       href: "https://dmktz.io",
       badges: [
-        "Vue3/Nuxt",
+        "React Native",
+        "Vue 2 / Nuxt.js",
         "Three.js",
         "Web3",
-        "Ether.js",
         "MetaMask",
-        "Stripe",
+        "NFT",
+        "Smart Contract",
       ],
       location: "Taipei, Taiwan",
       title: "Front-end Engineer",
@@ -102,11 +94,11 @@ export const DATA = {
       start: "May 2022",
       end: "Sep 2023",
       description: [
-        "Developed Visual Editing Features: Utilized Three.js and Vue.js to create WYSIWYG (What You See Is What You Get) editing functionalities for a digital fashion design platform. This included syncing body measurement data with 3D models, and editing, drawing, and setting materials on 3D models.",
-        "Front-End Development for Game-Fi App FITzOn: Led the front-end development of the [FITzOn official website](https://fitzon.io/). Focused on creating dynamic content and implementing complex animations. Integrated smart contracts and MetaMask, enabling users to perform NFT-related operations on the site.",
-        "NFT Global Minting: Managed the front-end development for the NFT Global Minting process on the FITzOn official website.",
-        "Metaverse Integration: Connected [RPM  Avatar](https://readyplayer.me/) with the development of 3D Avatar x DMKTZ virtual clothing try-on features for the metaverse.",
-        "Participated in the development of a breast surgery body simulation system for an aesthetic clinic.",
+        "Contributed to Web3 / Fashion Tech products, focusing on frontend development and interactive web experiences.",
+        "Built 3D web experiences with React and Three.js, including 3D garment visualization, virtual try-on, and interactive 3D models.",
+        "Integrated MetaMask, smart contracts, and NFTs to support wallet connectivity and blockchain-based features.",
+        "Collaborated with designers and product teams to translate visual concepts into interactive web interfaces while balancing visual quality and usability.",
+        "Contributed across the full product development cycle, from feature planning and implementation to integration and launch.",
       ],
       projects: [
         {
@@ -175,45 +167,36 @@ export const DATA = {
     {
       company: "Freelancing",
       href: "https://quinnai9287.github.io",
-      badges: ["Vue 2", "Nuxt.js", "Shopify(liquid)", "Bootsrap 5", "GraphQL"],
+      badges: [
+        "Vue 2 / Nuxt 2",
+        "GraphQL",
+        "Shopify Liquid",
+        "JavaScript",
+        "CSS Animation",
+      ],
       logoUrl: "",
       location: "Remote",
       title: "Front-end Engineer",
       start: "January 2020",
       end: "May 2022",
       description: [
-        `▦ May 2021 ~ December 2021 ▦  
-        [Project] No Party for Cao Dong [Official Website](https://www.nopartyforcaodong.com/zh-hant) / Shopify Store  
-        Collaborated with Blockcode Studio and Whatever Co., responsible for front-end development.`,
-
-        `▦ May 2021 ~ June 2022 ▦  
-        [Contract] with Alion Tech  
-        Participated in the front-end development for [JaFun Japanese Souvenir Purchasing Platform](https://www.jafun.com.tw/).`,
-
-        `▦ October 2020 ~ November 2020 ▦  
-        [Project] Hospice Foundation of Taiwan [Instawish Limited Wish Wall](https://www.youtube.com/watch?v=DZ3EqGJHCCI)  
-        Collaborated with Blockcode Studio and Medialand Creative, responsible for front-end development.`,
-
-        `▦ June 2020 ~ July 2022 ▦  
-        [Contract] with Kanekt Creative Studio  
-        Front-end maintenance and development for LCY Chemical Corp's official website.`,
-
-        `▦ February 2020 ~ April 2020 ▦  
-        [Project] [The Central Boulevard Official](https://www.thecentralboulevard.com/en-us), a large shopping mall in Myanmar. Responsible for front-end development of the official website.  
-        Collaborated with Blockcode Studio and Kanekt Creative Studio.`,
+        `Worked across multiple web projects through freelance and contract engagements, covering brand websites, e-commerce, and interactive web applications.`,
+        `Contributed to the No Party for Cao Dong official website and Shopify store, using Nuxt 2, GraphQL, and Shopify Liquid for frontend development and customization.`,
+        `Contributed to JaFun, an e-commerce platform for Japanese products, implementing product search, product pages, shopping cart, and order-related features.`,
+        `Contributed to Instawish, using Nuxt 2 / SSG, CSS Animation, and JavaScript to implement interactive and visual experiences.`,
+        `Provided ongoing frontend development and maintenance for the Lee Chang Rong Chemical Group official website, collaborating with designers on website updates and content maintenance.`,
       ],
     },
     {
       company: "Albertlan Creative",
       href: "https://albertlan.com/",
       badges: [
-        "html, css, js",
+        "HTML5",
+        "CSS / SCSS",
+        "JavaScript",
         "jQuery",
-        "Gulp",
-        "Bootstrap",
-        "CSS/SCSS",
         "GSAP",
-        "CSS Animation",
+        "Bootstrap",
       ],
       location: "Taipei, Taiwan",
       title: "Front-end Developer",
@@ -221,15 +204,10 @@ export const DATA = {
       start: "Aug 2016",
       end: "Nov 2019",
       description: [
-        "Bringing designers' concepts to life using HTML, CSS, and JavaScript",
-        "Responsible for creating, modifying, and maintaining user interfaces for websites and web applications.",
-        "Ensuring consistent visual and interactive experiences across different browsers and devices.",
-        "Implementing responsive design for mobile websites.",
-        "Maintaining the software workflow using project management tools like GitHub.",
-        "Testing website usability during the development process and fixing any bugs.",
-        "Creating web animations using tools like GSAP and CSS animations.",
-        "Participating in front-end development and maintenance for multiple corporate websites.",
-        "Using GA & GTM SDK to set up GA events for page elements, allowing clients to track user behavior in the GA dashboard.",
+        "Developed and maintained corporate websites and web applications, including responsive implementations.",
+        "Collaborated with designers to translate visual designs into interactive websites using HTML, CSS/SCSS, and JavaScript.",
+        "Implemented web animations and interactive experiences using GSAP and CSS Animation.",
+        "Handled cross-browser compatibility, testing, debugging, and user behavior tracking with GA / GTM.",
       ],
       projects: [
         {
@@ -299,56 +277,51 @@ export const DATA = {
       image: "",
       video: "/video/stfnd.mp4",
     },
-    {
-      title: "Pieces",
-      href: "",
-      dates: "Nov 2023 - Present",
-      active: false,
-      description:
-        "Making physical garment production simpler! Pieces is an application that allows fashion designers to easily and quickly start producing their own clothing after finishing their designs.",
-      technologies: ["Nuxt.js", "Typescript", "TailwindCSS", "Canvas"],
-      roles: ["UI/UX Designer", "Front-end Developer"],
-      links: [],
-      image: "/video/pieces.png",
-      video: "",
-    },
-    // {
-    //   title: "Lonely Diver",
-    //   href: "https://pieces.io",
-    //   dates: "July 2024 - Present",
-    //   active: false,
-    //   description:
-    //     "The ultimate dive travel planning platform for avid divers! Dive trips covering everything from dining to leisure activities. Building a diving community to connect diving enthusiasts across Taiwan!",
-    //   technologies: [
-    //     "Nuxt.js",
-    //     "Typescript",
-    //     "TailwindCSS"
-    //   ],
-    //   roles: ['UI/UX Designer', 'Front-end Developer'],
-    //   links: [],
-    //   image: "",
-    //   video: "https://cdn.magicui.design/bento-grid.mp4",
-    // },
-    // {
-    //   title: "Cybershop",
-    //   href: "",
-    //   dates: "July 2024 - Present",
-    //   active: false,
-    //   description:
-    //     "Cybershop is a lightweight e-commerce platform that allows users to quickly build their own online stores.",
-    //   technologies: [
-    //     "Nuxt.js",
-    //     "TypeScript",
-    //     "TailwindCSS",
-    //   ],
-    //   roles: ['UI/UX Designer', 'Front-end Developer'],
-    //   links: [],
-    //   image: "",
-    //   video:
-    //     "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
-    // },
   ],
   hackathons: [
+    {
+      title: "Asterbytes - SaaS Content Management Platform",
+      dates: "Sep 2024 - July 2026",
+      location: "Taipei, Taiwan",
+      credit:
+        "A content management platform designed for content and technical teams, enabling non-engineering users to independently create, edit, and manage website content while delivering content to frontend applications through APIs. The platform supports team collaboration, multilingual content, content management, and asset management. - All Rights Reserved by LYNUXTEK 令客思科技",
+      description: [
+        "Contributed to the frontend development and product iteration of the SaaS web application.",
+        "Integrated APIs and data flows to implement core features including content management and team collaboration.",
+        "Contributed to UI/UX design and the development of reusable UI components.",
+      ],
+      image: "/asterbytes.png",
+      mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg",
+      links: [
+        {
+          title: "Introduction",
+          icon: <Icons.globe className="h-4 w-4" />,
+          href: "https://www.asterbytes.com",
+        },
+      ],
+    },
+    {
+      title: "EaseX - Geospatial Information Visualization Platform",
+      dates: "Sep 2024 - July 2026",
+      location: "Taipei, Taiwan",
+      credit:
+        "A cloud-based geospatial information platform integrating maps, 2D/3D models, and time-series data to support collaboration, data storage, and sharing. EaseView enables visualization of GeoJSON and GLB data, 2D/3D overlays, and real-time IoT data visualization integrated with Grafana. - All Rights Reserved by LYNUXTEK 令客思科技",
+      description: [
+        "Contributed to the frontend development and product iteration of the geospatial cloud platform.",
+        "Implemented map-based data visualization and interactive geospatial experiences.",
+        "Contributed to the visualization of 2D/3D geospatial data, files, and time-series data.",
+        "Built reusable UI components and interactive interfaces while collaborating with backend engineers on API integration.",
+      ],
+      image: "/easex.png",
+      mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg",
+      links: [
+        {
+          title: "Introduction",
+          icon: <Icons.globe className="h-4 w-4" />,
+          href: "https://www.ease-x.com/",
+        },
+      ],
+    },
     {
       title: "SHOPLINE x LINE Membership Card Platform & Merchant Extension",
       dates: "June - August 2024",
@@ -369,132 +342,19 @@ export const DATA = {
       ],
     },
     {
-      title: "Swise - Virtual Office Space Solving Remote Work Challenges",
-      credit: "Contract collaboration with Alion Tech",
-      dates: "November 2021 - January 2022",
-      location: "Remote",
-      description: [
-        "Participated in the front-end interface and feature development, as well as maintenance, modification, and debugging.",
-      ],
-      icon: "public",
-      image: "/swise.png",
-      links: [
-        {
-          title: "Official Entry",
-          icon: <Icons.globe className="h-4 w-4" />,
-          href: "https://swise.jp/",
-        },
-      ],
-    },
-    {
-      title: "Instawish Limited-Time Story Wish Wall",
-      dates: "October - December 2020",
+      title: "DMKTZ 3D Virtual Try-on",
+      dates: "Nov 2022 - Aug 2023",
       location: "Taipei, Taiwan",
       credit:
-        "Project collaboration with Blockcode Studio and Medialand Digital Design",
+        "An interactive Fashion Tech experience combining 3D avatars, virtual garments, and Web3 technologies, enabling users to explore, customize, and experience digital fashion through 3D avatars. - All Rights Reserved by TG3D Studio",
       description: [
-        "Collaborated with designers to implement website visuals.",
-        "Implemented bi-directional carousel animations on the landing page using CSS3 Animation and JavaScript.",
-        "Built the front-end application using the Nuxt 2 framework (SSG), responsible for most of the front-end development.",
+        "Led frontend development and interactive feature implementation for the 3D Fashion Experience.",
+        "Built 3D avatar and garment visualization features, including model loading, camera controls, and interactive experiences.",
+        "Integrated Ready Player Me for 3D avatar and virtual garment experiences.",
+        "Integrated MetaMask, NFTs, and smart contracts to implement Web3 wallet connectivity and blockchain-based features.",
+        "Collaborated with design and product teams to transform visual concepts into interactive 3D web experiences.",
       ],
-      image: "/instawish.png",
-      links: [
-        {
-          title: "Video",
-          icon: <Icons.youtube className="h-4 w-4" />,
-          href: "https://www.youtube.com/watch?v=DZ3EqGJHCCI",
-        },
-        {
-          title: "Press",
-          icon: <Icons.globe className="h-4 w-4" />,
-          href: "https://www.hospice.org.tw/content/3025",
-        },
-        {
-          title: "Event Highlights",
-          icon: <Icons.globe className="h-4 w-4" />,
-          href: "https://www.hospice.org.tw/content/3157",
-        },
-      ],
-    },
-    {
-      title: "No Party for Cao Dong",
-      dates: "May - December 2021",
-      location: "Taipei, Taiwan",
-      credit: "Project collaboration with Blockcode Studio and Whatever Co.",
-      description: [
-        "Collaborated with designers to implement website visuals.",
-        "Built the front-end application using the Nuxt 2 framework (SSR), responsible for front-end development.",
-        "Integrated APIs using GraphQL and worked with backend engineers to launch the website.",
-        "Developed a customized Shopify theme using the Shopify Liquid template language.",
-      ],
-      image: "/noparty.jpg",
-      mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2017/white.svg",
-      links: [
-        {
-          title: "Official",
-          icon: <Icons.globe className="h-4 w-4" />,
-          href: "https://www.nopartyforcaodong.com/zh-hant",
-        },
-        {
-          title: "Shopify Store",
-          icon: <Icons.globe className="h-4 w-4" />,
-          href: "https://store.nopartyforcaodong.com/",
-        },
-      ],
-    },
-    {
-      title: "LCY Chemical Corp",
-      dates: "June 2020 - July 2022",
-      credit: "Contract collaboration with Kanekt Creative",
-      location: "Taipei, Taiwan",
-      description: [
-        "Collaborated with designers to implement website visuals.",
-        "Developed the front-end of the official website using HTML, CSS, and JavaScript.",
-        "Maintained and updated website content.",
-      ],
-      image: "/lcy.jpeg",
-      links: [
-        {
-          title: "LCY Chemical Corp",
-          icon: <Icons.globe className="h-4 w-4" />,
-          href: "https://www.lcycic.com/zh",
-        },
-      ],
-    },
-    {
-      title: "JaFun - Japanese Souvenir Purchasing Platform",
-      dates: "May - November 2021",
-      credit: "Contract collaboration with Alion Tech",
-      location: "Remote",
-      description: [
-        "Participated in front-end interface layout and feature development.",
-        "Implemented functionalities such as product search, product pages, shopping cart, and order pages.",
-      ],
-      image: "/jafun.png",
-      mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2017/white.svg",
-      links: [
-        {
-          title: "Official",
-          icon: <Icons.globe className="h-4 w-4" />,
-          href: "https://www.jafun.com.tw/",
-        },
-      ],
-    },
-    {
-      title: "The Central Boulevard Official",
-      dates: "February - April 2020",
-      credit: "Project collaboration with Kanekt Creative and Blockcode Studio",
-      location: "Remote",
-      description: ["Responsible for front-end visual layout."],
-      image: "/thecentralboulevard1.png",
-      mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2017/white.svg",
-      links: [
-        {
-          title: "Official",
-          icon: <Icons.globe className="h-4 w-4" />,
-          href: "https://www.thecentralboulevard.com/en-us",
-        },
-      ],
+      image: "/dmktz.png",
     },
   ],
 } as const;
