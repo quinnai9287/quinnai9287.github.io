@@ -355,6 +355,7 @@ export const DATA = {
         "Collaborated with design and product teams to transform visual concepts into interactive 3D web experiences.",
       ],
       image: "/dmktz.png",
+      links: [],
     },
   ],
 } as const;
