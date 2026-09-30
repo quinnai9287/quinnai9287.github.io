@@ -255,23 +255,29 @@ export const DATA = {
   ],
   projects: [
     {
-      title: "ST/FND. 個人遊樂場",
-      href: "https://quinnai9287.github.io",
-      dates: "July 2024 - Present",
+      title: "HeartoBox — Your Inbox, Your Coupon Wallet",
+      href: "https://oceanica-org-staging.web.app/",
+      dates: "May 2026 - Present",
       active: false,
       description:
-        "個人官方網站以及 3D 視覺實驗區。不定期更新好玩有趣的視覺效果。",
-      technologies: ["Nuxt.js", "Three.js", "TailwindCSS"],
-      roles: ["UI/UX Designer", "Front-end Developer"],
+        "把信箱裡散落的優惠，變成一個真正好用的優惠錢包。HeartoBox 自動從 Gmail 找出並整理優惠券，集中管理優惠資訊與到期日，讓優惠不再被遺忘。",
+      technologies: [
+        "Nuxt 4 CLIENT & SERVER",
+        "GOOGLE OAuth",
+        "GMAIL API",
+        "NOTION DB API",
+        "FIREBASE",
+      ],
+      roles: ["Director", "Designer", "Developer"],
       links: [
         {
           type: "Website",
-          href: "https://quinnai9287.github.io",
+          href: "https://oceanica-org-staging.web.app/",
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "",
-      video: "/video/stfnd.mp4",
+      image: "/hearto.png",
+      video: "",
     },
   ],
   hackathons: [

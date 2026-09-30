@@ -158,7 +158,8 @@ export default function Page() {
                   Side Projects
                 </h2>
                 <p className="text-muted-foreground md:text-base/relaxed">
-                  Creative Ideas & Implementations
+                  Things I build on my own.<br></br>
+                  Designed & Developed from 0 to 1
                 </p>
               </div>
             </div>
@@ -179,6 +180,7 @@ export default function Page() {
                   image={project.image}
                   video={project.video}
                   links={project.links}
+                  roles={project.roles}
                   className="aspect-video"
                   assetClassName="h-full"
                 />
