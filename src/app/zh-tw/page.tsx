@@ -127,7 +127,8 @@ export default function Page() {
                   Side Project
                 </h2>
                 <p className="text-muted-foreground md:text-base/relaxed">
-                  本人的創意想法與實踐
+                  自己發想，也自己做出來。<br></br>
+                  從一個想法開始，親自完成產品設計與開發，將創意真正落地。
                 </p>
               </div>
             </div>

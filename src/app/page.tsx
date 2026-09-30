@@ -152,10 +152,10 @@ export default function Page() {
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
                 <div className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm">
-                  My Projects
+                  My Project
                 </div>
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
-                  Side Projects
+                  Side Project
                 </h2>
                 <p className="text-muted-foreground md:text-base/relaxed">
                   Things I build on my own.<br></br>
