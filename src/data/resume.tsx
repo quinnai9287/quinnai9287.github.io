@@ -272,7 +272,7 @@ export const DATA = {
         "NOTION DB API",
         "FIREBASE",
       ],
-      roles: ["Director", "Designer", "Developer"],
+      roles: ["Product", "Designer", "Developer"],
       links: [
         {
           type: "Website",

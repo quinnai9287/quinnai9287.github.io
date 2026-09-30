@@ -49,7 +49,6 @@ export const DATA = {
         `參與 SaaS Web Application 0 到 1 開發，負責前端架構、核心功能與 UI/UX 實作，推進產品至 MVP 階段。`,
         `使用 Vue 3、Nuxt 4、TypeScript 建構 Web Application，負責頁面架構、Reusable Components、互動邏輯與資料流。`,
         `與後端協作整合 GraphQL / Apollo，串接產品核心 API 與資料流程。`,
-        `使用 GraphQL / Apollo 串接後端 API，處理資料取得、狀態管理及前端資料流。`,
         `整合 SuperTokens、Mapbox / Leaflet、Uppy / S3，實作身份驗證、地圖與檔案上傳等產品功能。`,
         `使用 Tailwind CSS、Nuxt UI、Pinia 建立可重用 UI 與狀態管理架構，並參與需求拆解、UI/UX 設計及產品迭代。`,
       ],
@@ -268,7 +267,7 @@ export const DATA = {
         "NOTION DB API",
         "FIREBASE",
       ],
-      roles: ["Director", "Designer", "Developer"],
+      roles: ["產品企劃", "設計", "軟體開發"],
       links: [
         {
           type: "Website",
@@ -286,7 +285,7 @@ export const DATA = {
       dates: "Sep 2024 - July 2026",
       location: "台灣, 台北",
       credit:
-        "面向內容與技術團隊的內容管理平台，讓非工程人員能自主建立、編輯與管理網站內容，並透過 API 將內容串接至前端網站。平台支援團隊協作、多語系、內容管理與資源管理等功能。 - All Right Reserved by LYNUXTEK 令客思科技",
+        "面向內容與技術團隊的 SaaS 內容管理平台，讓非工程人員能建立、編輯與管理網站內容，並透過 API 串接至前端網站。 - All Right Reserved by LYNUXTEK 令客思科技",
       description: [
         "參與 SaaS Web Application 的前端開發與產品迭代。",
         "整合 API 與資料流，實作內容管理、團隊協作等核心產品功能。",
@@ -307,7 +306,7 @@ export const DATA = {
       dates: "Sep 2024 - July 2026",
       location: "台灣, 台北",
       credit:
-        "整合地圖、2D/3D 模型與時序資料，提供多人協作、資料儲存與共享等功能。其中 EaseView 支援 GeoJSON、GLB 資料檢視、2D/3D 疊圖，以及結合 Grafana 的即時 IoT 資料視覺化。 - All Right Reserved by LYNUXTEK 令客思科技",
+        "整合地圖、2D/3D 模型與時序資料的地理資訊雲端平台，支援資料視覺化、多人協作與共享。 - All Right Reserved by LYNUXTEK 令客思科技",
       description: [
         "參與地理資訊雲端平台的前端開發與產品迭代。",
         "實作地圖資料與互動式地理資訊呈現。",
