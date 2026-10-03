@@ -7,7 +7,7 @@ export const DATA = {
   location: "Taipei, Taiwan",
   locationLink: "https://www.google.com/maps/place/taipei",
   description: `Frontend Engineer with 5+ years of experience, with a background in visual and UI design.`,
-  summary: `I primarily work with Vue, Nuxt, and TypeScript, with experience building SaaS applications, e-commerce platforms, and interactive web experiences.
+  summary: `I primarily work with Vue, Nuxt, and TypeScript, with experience building SaaS applications, e-commerce platforms, data visualizations, and interactive web experiences.
     \nMy design background shapes how I approach frontend development — balancing functionality, usability, and visual quality to create intuitive and refined digital experiences.
     \nBuilding experiences, not just websites.`,
   avatarUrl: "/me2.jpg",
@@ -38,6 +38,7 @@ export const DATA = {
         "SuperTokens",
         "Tailwind CSS / Nuxt UI",
         "Mapbox / Leaflet",
+        "Data Visualization",
       ],
       logoUrl: "/lynuxTek.jpg",
       location: "Taoyuang, Taiwan",
@@ -48,6 +49,7 @@ export const DATA = {
         `Contributed to the 0-to-1 development of a SaaS web application, owning frontend architecture, core features, and UI/UX implementation through MVP.`,
         `Built web applications with Vue 3, Nuxt 4, and TypeScript, covering page architecture, reusable components, interactions, and data flow.`,
         `Collaborated with backend engineers on GraphQL / Apollo integration and implemented authentication and session management with SuperTokens.`,
+        `Geospatial data, 2D/3D, and time-series data visualization`,
         `Integrated third-party services including Mapbox / Leaflet and Uppy / S3 to deliver map-based features, location data, and file upload workflows.`,
         `Built reusable UI and state management solutions with Tailwind CSS, Nuxt UI, and Pinia, while contributing to requirements analysis, UI/UX design, and product iteration.`,
       ],

@@ -7,7 +7,7 @@ export const DATA = {
   location: "台北, 台灣",
   locationLink: "https://www.google.com/maps/place/taipei",
   description: `5+ 年前端開發經驗，具備視覺與 UI 設計背景，專注於打造兼具功能性、互動性與視覺品質的 Web Experience。`,
-  summary: `主要使用 Vue、Nuxt、TypeScript 開發網頁應用，也具備 React / Next.js 開發經驗，參與過 SaaS、電商與各類互動式網站。
+  summary: `主要使用 Vue、Nuxt、TypeScript 開發網頁應用，也具備 React / Next.js 開發經驗，參與過 SaaS、電商、資料視覺化與各類互動式網站。
     \n除了前端開發，也有 API 整合、資料流、身分驗證與第三方服務串接等產品開發經驗。
     \n設計背景讓我特別在意介面的視覺與互動細節，習慣從功能與使用體驗一起思考，希望在工程能力之外，也能讓產品本身好用、好看。
     \nBuilding experiences, not just websites.`,
@@ -39,6 +39,7 @@ export const DATA = {
         "SuperTokens",
         "Tailwind CSS / Nuxt UI",
         "Mapbox / Leaflet",
+        "Data Visualization",
       ],
       logoUrl: "/lynuxTek.jpg",
       location: "桃園, 台灣",
@@ -49,7 +50,7 @@ export const DATA = {
         `參與 SaaS Web Application 0 到 1 開發，負責前端架構、核心功能與 UI/UX 實作，推進產品至 MVP 階段。`,
         `使用 Vue 3、Nuxt 4、TypeScript 建構 Web Application，負責頁面架構、Reusable Components、互動邏輯與資料流。`,
         `與後端協作整合 GraphQL / Apollo，串接產品核心 API 與資料流程。`,
-        `整合 SuperTokens、Mapbox / Leaflet、Uppy / S3，實作身份驗證、地圖與檔案上傳等產品功能。`,
+        `整合 SuperTokens、Mapbox / Leaflet、Uppy / S3，實作身份驗證、地圖、地理資訊與資料視覺化、檔案上傳等產品功能。`,
         `使用 Tailwind CSS、Nuxt UI、Pinia 建立可重用 UI 與狀態管理架構，並參與需求拆解、UI/UX 設計及產品迭代。`,
       ],
     },
