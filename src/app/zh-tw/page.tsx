@@ -107,6 +107,9 @@ export default function Page() {
                     dates={project.dates}
                     image={project.image}
                     links={project.links}
+                    era={project.era}
+                    copyright={project.copyright}
+                    copyrightBy={project.copyrightBy}
                     credit={project.credit}
                   />
                 </BlurFade>
@@ -158,7 +161,7 @@ export default function Page() {
           </div>
         </div>
       </section>
-      <section className="flex flex-col md:flex-row gap-8 justify-between">
+      <section className="flex flex-col gap-8 justify-between">
         <div id="skills" className="md:basis-1/2">
           <div className="flex min-h-0 flex-col gap-y-3">
             <BlurFade delay={BLUR_FADE_DELAY * 9}>
@@ -166,8 +169,22 @@ export default function Page() {
             </BlurFade>
             <div className="flex flex-wrap gap-1">
               {DATA.skills.map((skill, id) => (
-                <BlurFade key={skill} delay={BLUR_FADE_DELAY * 10 + id * 0.05}>
-                  <Badge key={skill}>{skill}</Badge>
+                <BlurFade
+                  key={skill.name}
+                  delay={BLUR_FADE_DELAY * 10 + id * 0.05}
+                  className="flex gap-2 w-full items-center whitespace-nowrap"
+                >
+                  <div key={skill.name} className="font-medium text-sm">
+                    {skill.name}
+                  </div>
+                  <div className="text-muted-foreground text-xs">
+                    {skill.items.map((item, index) => (
+                      <span key={item}>
+                        {item}
+                        {index < skill.items.length - 1 ? ", " : ""}
+                      </span>
+                    ))}
+                  </div>
                 </BlurFade>
               ))}
             </div>

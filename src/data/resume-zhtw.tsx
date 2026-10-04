@@ -12,7 +12,42 @@ export const DATA = {
     \n設計背景讓我特別在意介面的視覺與互動細節，習慣從功能與使用體驗一起思考，希望在工程能力之外，也能讓產品本身好用、好看。
     \nBuilding experiences, not just websites.`,
   avatarUrl: "/me2.jpg",
-  skills: ["網頁前端開發", "UI/UX 設計"],
+  skills: [
+    {
+      name: "Frontend",
+      items: [
+        "Vue 3",
+        "Nuxt 4",
+        "React",
+        "Next.js",
+        "TypeScript",
+        "JavaScript",
+      ],
+    },
+    {
+      name: "Data & API",
+      items: ["Nuxt 4 Server", "GraphQL", "Restful API", "WebSocket"],
+    },
+    {
+      name: "UI & Styling",
+      items: [
+        "Figma",
+        "Tailwind CSS",
+        "Nuxt UI",
+        "SCSS",
+        "Responsive Design",
+        "UI/UX",
+      ],
+    },
+    {
+      name: "Visualization & Interactive",
+      items: ["Mapbox", "Leaflet", "Three.js", "Data Visualization"],
+    },
+    {
+      name: "Tools & Other",
+      items: ["Git", "CI/CD", "Firebase"],
+    },
+  ],
   contact: {
     email: "keira0930@gmail.com",
     tel: "+886912959287",
@@ -35,10 +70,9 @@ export const DATA = {
       badges: [
         "Vue 3 / Nuxt 4",
         "TypeScript",
-        "GraphQL / Apollo",
-        "SuperTokens",
-        "Tailwind CSS / Nuxt UI",
-        "Mapbox / Leaflet",
+        "GraphQL / Rest API",
+        "Nuxt UI",
+        "Mapbox",
         "Data Visualization",
       ],
       logoUrl: "/lynuxTek.jpg",
@@ -47,11 +81,10 @@ export const DATA = {
       start: "Sep 2024",
       end: "July 2026",
       description: [
-        `參與 SaaS Web Application 0 到 1 開發，負責前端架構、核心功能與 UI/UX 實作，推進產品至 MVP 階段。`,
-        `使用 Vue 3、Nuxt 4、TypeScript 建構 Web Application，負責頁面架構、Reusable Components、互動邏輯與資料流。`,
-        `與後端協作整合 GraphQL / Apollo，串接產品核心 API 與資料流程。`,
-        `整合 SuperTokens、Mapbox / Leaflet、Uppy / S3，實作身份驗證、地圖、地理資訊與資料視覺化、檔案上傳等產品功能。`,
-        `使用 Tailwind CSS、Nuxt UI、Pinia 建立可重用 UI 與狀態管理架構，並參與需求拆解、UI/UX 設計及產品迭代。`,
+        `參與 SaaS Web Application 0→1 開發，負責前端架構、核心功能與 UI/UX 實作，從需求拆解一路推進至 MVP。`,
+        `使用 Vue 3 / Nuxt 4 / TypeScript 建立可重用的 UI 元件與頁面架構，並以 Pinia 管理跨模組資料流與狀態。`,
+        `與後端協作整合 GraphQL / Apollo，串接身份驗證、地圖、檔案上傳與資料服務，建立完整的產品資料流程。`,
+        `負責 Mapbox / Leaflet 地理資訊、2D/3D 資料視覺化與 Uppy / S3 檔案處理等複合型功能，參與產品需求、UI/UX 設計與持續迭代。`,
       ],
     },
     {
@@ -177,10 +210,7 @@ export const DATA = {
       end: "May 2022",
       description: [
         `以自由接案與合約合作模式參與多項 Web 專案，涵蓋品牌網站、電商與互動式 Web Application。`,
-        `參與 草東沒有派對官方網站與 Shopify 商店，使用 Nuxt 2、GraphQL、Shopify Liquid 完成前端開發與客製化。`,
-        `參與 JaFun 日本伴手禮代購平台，開發商品搜尋、商品頁、購物車與訂單等電商功能。`,
-        `參與 Instawish 限時許願牆，使用 Nuxt 2 / SSG、CSS Animation、JavaScript 實作網站互動與視覺效果。`,
-        `長期參與 李長榮化工集團官方網站前端維護與開發，與設計團隊協作完成網站更新與內容維護。`,
+        `參與草東沒有派對、JaFun、Instawish 等專案，使用 Vue / Nuxt、GraphQL、Shopify Liquid、JavaScript、CSS Animation 進行前端開發。`,
       ],
     },
     {
@@ -282,15 +312,16 @@ export const DATA = {
   ],
   hackathons: [
     {
-      title: "Asterbytes - SaaS Content Management Platform",
+      title: "Asterbytes - CMS",
       dates: "Sep 2024 - July 2026",
       location: "台灣, 台北",
-      credit:
-        "面向內容與技術團隊的 SaaS 內容管理平台，讓非工程人員能建立、編輯與管理網站內容，並透過 API 串接至前端網站。 - All Right Reserved by LYNUXTEK 令客思科技",
+      era: "LYNUXTEK · Frontend Engineer · 2024–2026",
+      copyright: "",
+      credit: `Asterbytes 是一套 SaaS 內容管理平台，協助團隊管理網站內容、資料與發布流程。我參與產品從 0→1 的前端開發，從 UI/UX 到資料串接與核心功能都有參與。`,
       description: [
-        "參與 SaaS Web Application 的前端開發與產品迭代。",
+        "負責 CMS 核心功能與前端頁面開發，參與產品需求拆解與 UI/UX 實作。",
         "整合 API 與資料流，實作內容管理、團隊協作等核心產品功能。",
-        "參與 UI/UX 設計與 Reusable Components 建置。",
+        "與後端協作串接身份驗證、檔案上傳及第三方服務，完成產品核心工作流程。",
       ],
       image: "/asterbytes.png",
       mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg",
@@ -301,18 +332,20 @@ export const DATA = {
           href: "https://www.asterbytes.com",
         },
       ],
+      copyrightBy: "Product and intellectual property owned by LYNUXTEK.",
     },
     {
       title: "EaseX - 可視化的地球資訊雲端平台",
       dates: "Sep 2024 - July 2026",
+      era: "LYNUXTEK · Frontend Engineer · 2024–2026",
       location: "台灣, 台北",
+      copyright: "",
       credit:
-        "整合地圖、2D/3D 模型與時序資料的地理資訊雲端平台，支援資料視覺化、多人協作與共享。 - All Right Reserved by LYNUXTEK 令客思科技",
+        "整合地圖、2D/3D 模型與時序資料的地理資訊雲端平台，支援資料視覺化、多人協作與共享。",
       description: [
-        "參與地理資訊雲端平台的前端開發與產品迭代。",
-        "實作地圖資料與互動式地理資訊呈現。",
-        "參與 2D/3D 地理資料、檔案與時序資料的視覺化功能開發。",
-        "建立可重用 UI 元件與互動介面，並與後端協作整合 API。",
+        "負責前端互動介面與地理資訊功能開發，使用 Mapbox 呈現地圖與空間資料。",
+        "參與 2D 地理資料與時序資料的視覺化功能，處理不同資料型態的互動與呈現。",
+        "建立可重用 UI 元件並整合 API / 資料流程，與後端協作完成產品功能。",
       ],
       image: "/easex.png",
       mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg",
@@ -323,15 +356,20 @@ export const DATA = {
           href: "https://www.ease-x.com/",
         },
       ],
+      copyrightBy: "Product and intellectual property owned by LYNUXTEK.",
     },
     {
       title: "SHOPLINE x LINE 會員卡功能平台 & SHOPLINE 商家擴充插件",
       dates: "June - August 2024",
       location: "台灣, 台北",
+      era: "",
+      copyright: "",
       credit: "專案合作 w/ Crescendo Lab 漸強實驗室",
       description: [
-        "串接 LINE LIFF 並與後端合作，實現以 LINE 為載體的 SHOPLINE 會員卡功能頁面。",
-        "與後端合作，實現商家擴充插件，讓商家可以在 SHOPLINE 後台設定會員卡功能。",
+        "串接 LINE LIFF 並與後端合作，實現以 LINE 為載體的 SHOPLINE 會員卡功能頁面。參與 SHOPLINE × LINE 會員卡功能平台開發，使用 LINE LIFF 建構以 LINE 為載體的會員卡功能頁面。",
+        "與後端協作整合 API，實作會員資訊與相關功能流程。",
+        "開發 SHOPLINE 商家擴充插件，讓商家可於 SHOPLINE 後台設定與管理會員卡功能。",
+        "負責前端功能開發與介面實作，串接前後端資料流程。",
       ],
       image: "/crescendolab.png",
       mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg",
@@ -342,13 +380,16 @@ export const DATA = {
           href: "https://crescendolab.zendesk.com/hc/zh-tw/articles/36619431030809-%E6%95%99%E5%AD%B8-%E6%BC%B8%E5%BC%B7%E5%AF%A6%E9%A9%97%E5%AE%A4-EC-%E5%B0%8F%E5%B9%AB%E6%89%8B-Shopline",
         },
       ],
+      copyrightBy: "Product / Intellectual Property © Crescendo Lab.",
     },
     {
       title: "DMKTZ 3D Virtual Try-on",
-      dates: "Nov 2022 - Aug 2023",
+      dates: "May 2022 - Sep 2023",
+      era: "TG3D Studio · Frontend Engineer · 2022–2023",
       location: "台北, 台灣",
+      copyright: "",
       credit:
-        "結合 3D Avatar、虛擬服裝與 Web3 技術的互動式 Fashion Tech 體驗，讓使用者透過 3D Avatar 瀏覽、搭配與體驗數位服裝。 - All Right Reserved by 適著三圍 TG3D Studio",
+        "結合 3D Avatar、虛擬服裝與 Web3 技術的互動式 Fashion Tech 體驗，讓使用者透過 3D Avatar 瀏覽、搭配與體驗數位服裝。",
       description: [
         "負責 3D Fashion Experience 的前端開發與互動功能實作。",
         "建構 3D Avatar 與服裝展示，實作模型載入、視角控制與互動體驗。",
@@ -358,6 +399,7 @@ export const DATA = {
       ],
       image: "/dmktz.png",
       links: [],
+      copyrightBy: "Product and intellectual property owned by TG3D Studio.",
     },
   ],
 } as const;

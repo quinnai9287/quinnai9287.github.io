@@ -1,8 +1,8 @@
-"use client"
+"use client";
 
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Badge } from "@/components/ui/badge";
-import { usePathname } from 'next/navigation'
+import { usePathname } from "next/navigation";
 import Link from "next/link";
 
 interface Props {
@@ -11,6 +11,9 @@ interface Props {
   dates: string;
   location?: string;
   image?: string;
+  era?: string;
+  copyright?: string;
+  copyrightBy?: string;
   credit?: string;
   links?: readonly {
     icon: React.ReactNode;
@@ -24,44 +27,60 @@ export function HackathonCard({
   description,
   dates,
   credit,
+  era,
+  copyright,
+  copyrightBy,
   location,
   image,
   links,
 }: Props) {
-
-  const pathname = usePathname ();
-  const assetsPrefix = pathname.includes('resume') ? '/resume' : '';
+  const pathname = usePathname();
+  const assetsPrefix = pathname.includes("resume") ? "/resume" : "";
 
   return (
     <li className="relative ml-10 py-4">
       <div className="absolute -left-16 top-2 flex items-center justify-center bg-white rounded-full">
         <Avatar className="border size-12 m-auto">
-          <AvatarImage src={assetsPrefix+image} alt={title} className="object-contain" />
+          <AvatarImage
+            src={assetsPrefix + image}
+            alt={title}
+            className="object-contain"
+          />
           <AvatarFallback>{title[0]}</AvatarFallback>
         </Avatar>
       </div>
       <div className="flex flex-1 flex-col justify-start gap-1">
         {dates && (
-          <time className="text-xs text-muted-foreground">{dates}</time>
+          <time className="text-xs  text-muted-foreground">{dates}</time>
         )}
-        <h3 className="font-semibold leading-none">{title}</h3>
+        <h3 className="font-semibold leading-none mb-1">{title}</h3>
+        {era && <h6 className="text-xs text-muted-foreground mb-2">{era}</h6>}
+        {copyright && (
+          <p className="text-xs italic text-muted-foreground leading-none mb-2">
+            {copyright}
+          </p>
+        )}
         {credit && (
           <p className="text-sm text-muted-foreground mb-2">{credit}</p>
         )}
         {/* {location && (
           <p className="text-sm text-muted-foreground">{location}</p>
         )} */}
-        {
-          description && description.length > 0 && (
-            <ul className="list-disc pl-6 mb-2">
-              {description?.map((desc, idx) => (
-                <li key={idx} className="text-sm text-muted-foreground">
-                  {desc}
-                </li>
-              ))}
-            </ul>
-          )
-        }
+        {description && description.length > 0 && (
+          <ul className="list-disc pl-6 mb-2">
+            {description?.map((desc, idx) => (
+              <li key={idx} className="text-sm text-muted-foreground">
+                {desc}
+              </li>
+            ))}
+          </ul>
+        )}
+
+        {copyrightBy && (
+          <p className="text-xs italic text-muted-foreground leading-none my-2">
+            {copyrightBy}
+          </p>
+        )}
       </div>
       {links && links.length > 0 && (
         <div className="mt-2 flex flex-row flex-wrap items-start gap-2">
